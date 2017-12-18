@@ -13,7 +13,6 @@ public class ExampleTest {
   }
 
   @Test
-  @Ignore
   public void test2() {
     System.out.println("test2");
     Assert.assertTrue(false);
