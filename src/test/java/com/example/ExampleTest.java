@@ -18,4 +18,10 @@ public class ExampleTest {
     System.out.println("test2");
     Assert.assertTrue(false);
   }
+  
+  @Test
+  public void developBranchOnlyTest() {
+    System.out.println("develop branch only test");
+    Assert.assertTrue(true);
+  }
 }
